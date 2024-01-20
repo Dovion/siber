@@ -86,7 +86,6 @@ public class PokerHand implements Comparable<PokerHand> {
         if (curHandRank == otherHandRank) {
             return Integer.compare(this.cards.getLast().getRank(), other.cards.getLast().getRank());
         }
-        System.out.println(Integer.compare(this.rank, other.rank));
         return Integer.compare(this.rank, other.rank);
     }
 }
